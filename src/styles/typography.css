@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+:root {
+
+   --font-family-primary         : 'Open sans', sans-serif;
+
+   --font-weight-regular         : 400;
+   --font-weight-semibold        : 600;
+   --font-weight-demibold        : 700;
+
+   --font-size-default           : 14px;
+   --font-size-headings-large    : 2.29rem; /* 32px */
+   --font-size-headings-medium   : 1.715rem; /* 24px */
+   --font-size-headings-small    : 1.143rem; /* 16px */
+   --font-size-headings-xsmall   : 0.8575rem; /* 12px */
+   --font-size-body-large        : 1.143rem; /* 16px */
+   --font-size-body-medium       : 1rem; /* 14px */
+   --font-size-body-small        : 0.8575rem; /* 12px */
+   --font-size-body-caps-small   : 0.7145rem; /* 10px */
+
+   --line-height-default           : 20px;
+   --line-height-headings-large    : 40px;
+   --line-height-headings-medium   : 32px;
+   --line-height-headings-small    : 24px;
+   --line-height-headings-xsmall   : 16px;
+   --line-height-body-large        : 24px;
+   --line-height-body-medium       : 20px;
+   --line-height-body-small        : 16px;
+
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+   font-display: swap;
+}
+
+.text-body-3.text-body-3 {
+   font-size: var(--font-size-body-large); /*  Si l'on change cette valeur pensé a changer la valeur dans les variables sass de VLabel' */
+   font-weight: var(--font-weight-regular);
+   line-height: var(--line-height-body-large);
+   font-family: var(--font-family-primary);
+}
+
+.text-body-4 {
+   font-size: var(--font-size-body-large);
+   font-weight: var(--font-weight-demibold);
+   line-height: var(--line-height-body-large);
+   font-family: var(--font-family-primary);
+}
+
+.text-body-5.text-body-5.text-body-5 {
+   font-size: var(--font-size-body-small);
+   font-weight: var(--font-weight-regular);
+   line-height: var(--line-height-body-small);
+   font-family: var(--font-family-primary);
+}
+
+.text-body-6 {
+   font-size: var(--font-size-body-caps-small);
+   font-weight: var(--font-weight-semibold);
+   line-height: var(--line-height-body-small);
+   font-family: var(--font-family-primary);
+   text-transform: uppercase;
+}
+
+.text-body-7 {
+   font-size: var(--font-size-body-small);
+   font-weight: var(--font-weight-demibold);
+   line-height: var(--line-height-body-small);
+   font-family: var(--font-family-primary);
+}
+
+/* Cette classe est utile pour les label outlined car un scaling de 0.75 est appliqué sur le lineHeight sur les fields outlined*/
+.text-body-label-outlined {
+   font-size: var(--font-size-body-large);
+   font-weight: var(--font-weight-regular);
+   line-height: 21.33px;
+   font-family: var(--font-family-primary);
+}
+
+
+.fuzzy-font {
+   font-family: 'Fuzzy Bubbles', cursive;
+   font-weight: bold;
+}

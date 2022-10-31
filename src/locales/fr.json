@@ -1,0 +1,138 @@
+{
+  "aboutMe": "À propos de moi",
+  "experience": "Experience",
+  "contact": "Contact",
+  "skills": "Compétences",
+  "educations": "Éducation",
+  "whoiam": "À propos de moi",
+  "location": "Emplacement",
+  "email": "Email",
+  "phone": "Téléphone",
+  "mystudies": "Mes études",
+  "myskills": "Mes compétences",
+  "myexperiences": "Mes expériences professionnelles",
+  "downloadCv": "Telecharger CV",
+  "orgmeth" : "Organisation/méthodologie",
+  "frontend" : "Frontend",
+  "backend" : "Backend",
+  "condev" : "Conception et développement",
+  "works": {
+    "grics": {
+      "summaries": {
+        "line_1": "Développement d’un Design System en Vue 2.x et Vuetify.",
+        "line_2": "Développement en parallèle du  Design System en Vue 3.x et Vuetify Next (beta)."
+      },
+      "resumes": {
+        "summary_frontend_0" : "Développement de composant UI selon des maquettes Figma",
+        "summary_frontend_1" : "Écriture de la documentation avec storybook",
+        "summary_frontend_2" : "Écriture des tests unitaires avec Jest.",
+        "summary_frontend_3" : "CI / CD Azure pipeline",
+        "summary_frontend_4" : "Intégration CSS (Sass)",
+        "summary_orgmeth_0" : "Code Review",
+        "summary_orgmeth_1" : "Pair programming",
+        "summary_orgmeth_2" : "Gestion des tickets avec Azure DevOps"
+      }
+    },
+    "garda": {
+      "summaries": {
+        "line_1": "Refonte du site web permettant la gestion des employés de Garda World"
+      },
+      "resumes": {
+        "summary_frontend_0" : "Développement du Ui",
+        "summary_frontend_1" : "Consommation en REST des services backend via FeatherJs",
+        "summary_frontend_2" : "Utilisation de Feathers Vuex Store",
+        "summary_frontend_3" : "Test Unitaire avec Cypress",
+        "summary_backend_0" : "Création des différents services backend via FeatherJs",
+        "summary_backend_1" : "Le backend est monté de façon à être un REST API standard, qui utilise via un système de mapper les méthodes SOAP existantes du système de Gardaworld.",
+        "summary_backend_2" : "Utilisation de sequelize pour les accés direct a la DataBase Postgresql",
+        "summary_orgmeth_0" : "Analyse des besoins clients participation au découpage technique des User Stories",
+        "summary_orgmeth_1" : "Design, mockup et estimation des tâches avant développement.",
+        "summary_orgmeth_2" : "Code Review",
+        "summary_orgmeth_3" : "Pair programming",
+        "summary_orgmeth_4" : "Présentation des démos au client en fin de sprint"
+      }
+    },
+    "magiknet": {
+      "summaries": {
+        "line_1": "Développement d’un site web permettant la gestion des dossiers d'invalidité en assurance et intégration d’une gestion électronique de document."
+      },
+      "resumes": {
+        "summary_frontend_0" : "Développement du Ui",
+        "summary_frontend_1" : "Utilisation de Feathers Vuex Store",
+        "summary_backend_0" : "Création des différents services backend via FeatherJs",
+        "summary_backend_1" : "Création de hooks spécifiques pour la gestion des règles métier.",
+        "summary_backend_2" : "Utilisation de sequelize pour les accés direct a la DataBase Postgresql",
+        "summary_orgmeth_0" : "Code Review",
+        "summary_orgmeth_1" : "Pair programming",
+        "summary_orgmeth_2" : "Présentation des démos au client en fin de sprint"
+      }
+    },
+    "master": {
+      "summaries": {
+        "line_1": "Développer, améliorer et corriger les applications de l’entreprise(web et applicatif, environ 15 applications/site web)"
+      },
+      "resumes": {
+        "summary_condev_0" : "Analyse et correction de bugs",
+        "summary_condev_1" : "Développement des améliorations de features",
+        "summary_condev_2" : "Automatisation des tâches d'historisation",
+        "summary_condev_3" : "Calculs et création de rapport de statistiques",
+        "summary_orgmeth_0" : "Gestion de ticket avec JIRA"
+      }
+    },
+    "shellomatic": {
+      "summaries": {
+        "line_1": "Développement d’un site web et d’une application Windows permettant la création de recettes au format XML consommées par des automates industriels."
+      },
+      "resumes": {
+        "summary_condev_0" : "Utilisation de librairie C# pour la création de fichier XML",
+        "summary_condev_1" : "Développement du logiciel en langage orienté objet",
+        "summary_orgmeth_0" : "Gestion de ticket - Trello"
+      }
+    },
+    "fmenard": {
+      "summaries": {
+        "line_1": "Développement d’une application mobile cross platform, iOS et Android, pour la gestion de commandes."
+      },
+      "resumes": {
+        "summary_condev_0" : "Utilisation d’un webService SOAP",
+        "summary_condev_1" : "Gestion du cross plateforme, compatible IOS et Android",
+        "summary_condev_2" : "Publication de l’application sur les app stores",
+        "summary_condev_3" : "Développement de l’application en langage orienté objet",
+        "summary_orgmeth_0" : "Gestion de ticket - Redmine"
+      }
+    },
+    "cdmv": {
+      "summaries": {
+        "line_1": "Développement et correction des rapports d’analyses de ventes."
+      },
+      "resumes": {
+        "summary_condev_0" : "Correction de rapport d’analyses de ventes",
+        "summary_condev_1" : "Développement de nouveaux rapport d’analyses de ventes",
+        "summary_orgmeth_0" : "Gestion de ticket - Redmine"
+      }
+    },
+    "ga": {
+      "summaries": {
+        "line_1": "Développement et maintenance de 15 applications métier développées en Windev, Windev mobile et Webdev"
+      },
+      "resumes": {
+        "summary_condev_0" : "Analyse, développement et maintenance de logiciel spécifiques (gestion administrative, comptabilité, paye, gestion de stock, CRM)",
+        "summary_condev_1" : "Analyse, développement et maintenance de logiciels de tracking. (gestion de stock et inventaire)",
+        "summary_orgmeth_0" : "Gestion de ticket - Redmine"
+      }
+    },
+    "avilon": {
+      "summaries": {
+        "line_1": "Société de développement et maintenance de logiciels spécifiques type ERP ainsi que l’installation de serveur et pc pour des PME."
+      },
+      "resumes": {
+        "summary_condev_0" : "Analyse, développement et maintenance d’un logiciel pour la gestion administrative dans le métier de transporteur / affréteur. Logiciel déployé est maintenu chez plus de 10 clients",
+        "summary_condev_1" : "Analyse, développement et maintenance d’un logiciel pour la gestion administrative dans le métier des granitiers",
+        "summary_condev_2" : "Installation et maintenance de serveurs, pc et tous équipements informatiques",
+        "summary_condev_3" : "Virtualisation de serveurs sous VMware",
+        "summary_condev_4" : "Audit et conception d'infrastructures réseaux",
+        "summary_orgmeth_0" : "Vice président et membre du BNI (Business Network International, réseau d’affaire )"
+      }
+    }
+  }
+}

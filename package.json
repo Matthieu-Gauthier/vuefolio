@@ -1,0 +1,34 @@
+{
+  "name": "vuefolio",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.3",
+    "@mdi/font": "5.9.55",
+    "@mdi/js": "^7.0.96",
+    "pinia": "^2.0.21",
+    "roboto-fontface": "*",
+    "vue": "^3.2.38",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5",
+    "vuetify": "^3.0.0-beta.14",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.22.0",
+    "eslint-config-vuetify": "^0.6.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "sass": "^1.55.0",
+    "vite": "^3.0.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  }
+}
