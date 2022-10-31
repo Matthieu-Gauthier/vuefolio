@@ -3,7 +3,8 @@
       <core-heading>{{ t('myexperiences') }}</core-heading>
 
       <v-col>
-         <v-timeline :density="mdAndDown ? 'comfortable' : 'default'"
+         <v-timeline v-if="!smAndDown"
+                     :density="mdAndDown ? 'comfortable' : 'default'"
                      line-thickness="1"
                      truncate-line="start"
                      line-color="tertiary">
@@ -18,6 +19,13 @@
                </template>
             </v-timeline-item>
          </v-timeline>
+         <div v-else>
+            <div v-for="(item, i) in works"
+                 :key="i"
+                 class="mb-4">
+               <experience :value="item" />
+            </div>
+         </div>
       </v-col>
    </core-section>
 </template>
@@ -44,9 +52,9 @@ export default defineComponent({
 
    setup() {
       const { t } = useI18n();
-      const { mdAndDown } = useDisplay();
+      const { mdAndDown, smAndDown } = useDisplay();
       const { works } = useWorksDatasStore();
-      return { works, t, mdAndDown };
+      return { works, t, mdAndDown, smAndDown };
    }
 });
 </script>
